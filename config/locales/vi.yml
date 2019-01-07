@@ -1,10 +1,17 @@
 vi:
   titlebasic: "Hướng dẫn Ruby on Rails và một số ứng dụng mẫu"
-  user:
+  users:
     new:
       title: "Đăng kí"
       h1: "Đăng kí"
-      content1: "Đây là trang đăng kí cho người dùng mới."
+      content1: "Họ Tên"
+      content2: "Hòm thư"
+      content3: "Mật khẩu"
+      content4: "Xác nhận mật khẩu"
+      content5: "Tạo tài khoản"
+    create:
+      flash: "Chào mừng đến với ứng dụng mẫu"
+      danger: "Lỗi....."
   layouts:
     footer:
       content0: "Bài"
@@ -52,3 +59,7 @@ vi:
       h1: "Liên hệ"
       content1: "Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu ở "
       link1: "trang liên hệ"
+  shared:
+    error_messages:
+      error: "Lỗi"
+      content1: "Biểu mẫu chứa"
