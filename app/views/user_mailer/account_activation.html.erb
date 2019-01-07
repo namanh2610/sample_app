@@ -1,0 +1,4 @@
+<h1><%= t ".h1" %></h1>
+<p><%= t".activate", user: @user.name %></p>
+<%= link_to t(".activate_html").html_safe, edit_account_activation_url(@user.activation_token,
+                                                    email: @user.email) %>

@@ -3,19 +3,19 @@
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
     <%= form_for(:session, url: login_path) do |f| %>
-    <%= f.label :email, t(".content1") %>
+    <%= f.label :email, t(".email") %>
       <%= f.email_field :email, class: "form-control" %>
 
-      <%= f.label :password, t(".content2") %>
+      <%= f.label :password, t(".password") %>
       <%= f.password_field :password, class: "form-control" %>
 
       <%= f.label :remember_me, class: "checkbox inline" do %>
         <%= f.check_box :remember_me %>
-        <span><%= t ".content6" %></span>
+        <span><%= t ".remember" %></span>
       <% end %>
 
-      <%= f.submit t".content3", class: "btn btn-primary" %>
+      <%= f.submit t ".login", class: "btn btn-primary" %>
     <% end %>
-    <p><%= t ".content5" %><%= link_to t(".content4"), signup_path %></p>
+    <p><%= t ".new_user" %><%= link_to t(".signup"), signup_path %></p>
   </div>
 </div>

@@ -2,6 +2,7 @@ source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "2.5.3"
+gem "figaro"
 gem "kaminari"
 gem "bootstrap-kaminari-views"
 gem "faker", ">=1.6.6"
