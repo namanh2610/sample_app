@@ -1,4 +1,4 @@
-vn:
+vi:
   titlebasic: "hướng dân tạo ứng dụng mẫu bằng ruby on rails"
   account_activation: "Kích hoạt tài khoản"
   users:
@@ -21,6 +21,7 @@ vn:
       email: "Hòm thư"
       password: "Mật khẩu"
       password_confirmation: "Xác nhận mật khẩu"
+      password_resets: "Đặt lại mật khẩu"
     index:
       title: "Tất cả người dùng"
       h1: "Tất cả người dùng"
@@ -57,6 +58,28 @@ vn:
       settings: "Cài đặt"
       logout: "Đăng xuất"
       account: "Tài khoản"
+  password_resets:
+    new:
+      title: "Quên mật khẩu"
+      h1: "Quên mật khẩu"
+      email: "Hòm thứ"
+      submit: "gửi"
+    edit:
+      reset_password: "Đặt lại mật khẩu"
+      h1: "Đạt lại mật khẩu"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+      submit: "Cập nhật mật khẩu"
+    create:
+      info: "Thư đã đưọc gửi với hướng dẫn cài lại mật khẩu"
+      danger: "Địa chỉ email không tìm thấy"
+    update:
+      empty: "Không thể để trống"
+      success: "Mật khẩu đã đưọc đặt lại"
+    check_expiration:
+      danger: "Đặt lại mật khẩu đã hết hạn"
+    get_user:
+      danger: "Không tìm thấy"
   static_pages:
     home:
       title: "Trang chủ"
@@ -100,6 +123,7 @@ vn:
       signup: "Đăng kí ngay!"
       new_user: "Người dùng mới ?"
       remember: "Ghi nhớ trên máy tính này"
+      forgot_pass: "(Quên mật khẩu)"
     create:
       message: "Tài khoản chưa kích hoạt/Kiểm tra hòm thư và nhấn vào đường dẫn kích hoạt."
       danger: "Sai tên/Mật khẩu"
@@ -109,5 +133,9 @@ vn:
       activate: "Xin chào %{user}, Chào mừng đến với ứng dụng! Kích vào đưòng dẫn bên dưói để kích hoạt tài khoản"
       activate_html: "Kích hoạt"
     password_reset:
-      h1: "Ưng dụng mẫu"
-
+      h1: "Đặt lại mật khẩu"
+      reset_password: "Đặt lại mật khẩu"
+      reset_html: "Để đặt lại mật khẩu của bạn truy cập link sau: %{link1}"
+      note: "Đường dẫn sẽ hết hạn trong 2h.
+              Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và
+              mật khẩu của bạn sẽ được giữ nguyên."

@@ -1,6 +1,7 @@
 en:
   account_activation: "Account activation"
   titlebasic: "Ruby on Rails Tutorial Sample App"
+  password_resets: "Password Reset"
   users:
     new:
       title: "Sign up"
@@ -57,6 +58,28 @@ en:
       settings: "Settings"
       logout: "Log out"
       account: "Account"
+  password_resets:
+    new:
+      title: "Forgot password"
+      h1: "Forgot password"
+      email: "email"
+      submit: "submit"
+    edit:
+      reset_password: "Reset Password"
+      h1: "Reset Password"
+      password: "Password"
+      confirmation: "Confirmation"
+      submit: "Update password"
+    create:
+      info: "Email sent with password reset instructions"
+      danger: "Email address not found"
+    update:
+      empty: "can't be empty"
+      success: "Password has been reset."
+    check_expiration:
+      danger: "Password reset has expired."
+    load_user:
+      danger: "not found"
   static_pages:
     home:
       title: "Home"
@@ -100,6 +123,7 @@ en:
       signup: "Sign up now!"
       new_user: "New user?"
       remember: "Remember me on this computer"
+      forgot_pass: "(forgot password)"
     create:
       message: "Account not activated/Check your email for the activation link."
       danger: "Invalid email/password combination"
@@ -109,6 +133,9 @@ en:
       activate: "Hi %{user}, Welcome to the Sample App! Click on the link below to activate your account"
       activate_html: "Activate"
     password_reset:
-      h1: "Sample App"
-
-
+      h1: "Password reset"
+      reset_password: "Reset Password"
+      reset_html: "To reset your password click the link below: %{link1}"
+      note: "This link will expire in two hours.
+              If you did not request your password to be reset, please ignore this email and
+              your password will stay as it is."
