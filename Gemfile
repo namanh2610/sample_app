@@ -2,6 +2,8 @@ source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "2.5.3"
+gem "jquery-rails", "4.3.1"
+gem "turbolinks", "~> 5"
 gem "bcrypt", "3.1.12"
 gem "rails-i18n"
 gem "rails", "~> 5.2.2"

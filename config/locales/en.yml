@@ -25,6 +25,11 @@ en:
       content2: "Home"
       content3: "Help"
       content4: "Log in"
+      content5: "Users"
+      content6: "Profile"
+      content7: "Settings"
+      content8: "Log out"
+      content9: "Account"
   static_pages:
     home:
       title: "Home"
@@ -62,3 +67,12 @@ en:
     error_messages:
       error: "Error"
       content1: "The form contains"
+  sessions:
+    new:
+      title: "Log in"
+      h1: "Log in"
+      content1: "Email"
+      content2: "Password"
+      content3: "Log in"
+      content4: "Sign up now!"
+      content5: "New user?"
