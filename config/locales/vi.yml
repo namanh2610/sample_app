@@ -1,0 +1,34 @@
+vi:
+  titlebasic: "Hướng dẫn Ruby on Rails và một số ứng dụng mẫu"
+  static_pages:
+    home:
+      title: "Trang chủ"
+      h1: "Ứng dụng mẫu"
+      content1: "Đây là trang chủ của"
+      content2: "Hướng dẫn về rails"
+      content3: "ứng dụng mẫu."
+      link1: "hướng dẫn về rails"
+    about:
+      title: "Giới thiệu"
+      h1: "Giới thiệu"
+      content1: "Bài"
+      link1: "hướng dẫn về rails"
+      content2: "là một"
+      link2: "quyển sách"
+      content3: "và"
+      link3: "một loạt bài"
+      content4: "để dạy về cách phát triển web với "
+      link4: "Ruby on Rails"
+      content5: "Nó có một số ứng dụng mẫu đơn giản cho các hướng dẫn."
+    help:
+      title: "Giúp đỡ"
+      h1: "Giúp đỡ"
+      content1: "nhận sự giúp đỡ của Ruby on Rails Tutorial ở"
+      link1: "trang giúp đỡ rails Tutorial "
+      content2: "Để nhận sự gíup đỡ về các ứng dụng mẫu, xem ở "
+      link2: "sách"
+    contact:
+      title: "Liên hệ"
+      h1: "Liên hệ"
+      content1: "Liên hệ với Ruby on Rails Tutorial về ứng dụng mẫu ở "
+      link1: "trang liên hệ"
