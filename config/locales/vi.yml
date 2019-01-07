@@ -4,14 +4,36 @@ vi:
     new:
       title: "Đăng kí"
       h1: "Đăng kí"
-      content1: "Họ Tên"
-      content2: "Hòm thư"
-      content3: "Mật khẩu"
-      content4: "Xác nhận mật khẩu"
       content5: "Tạo tài khoản"
     create:
       flash: "Chào mừng đến với ứng dụng mẫu"
       danger: "Lỗi....."
+    edit:
+      title: "Chỉnh sửa người dùng"
+      h1: "Cập nhật hồ sơ của bạn"
+      content5: "Lưu thay đổi"
+      content6: "Thay dổi"
+    form:
+      content1: "Tên"
+      content2: "Hòm thư"
+      content3: "Mật Khẩu"
+      content4: "Xác nhận mật khẩu"
+      content5: "Lưu thay đổi"
+    index:
+      title: "Tất cả người dùng"
+      h1: "Tất cả người dùng"
+    user:
+      content1: "xóa"
+      content2: "Bạn chắc chứ?"
+    update:
+      Profile_updated: "Hồ sơ đã đưọc cập nhật"
+    logged_in_user:
+      Please_log_in: "Làm ơn đăng nhập"
+    destroy:
+      User_deleted: "Đã xóa người dùng"
+      cant_User_delete: "không thể xóa"
+    find_user:
+      danger: "không tồn tại"
   layouts:
     footer:
       content0: "Bài"
@@ -78,3 +100,5 @@ vi:
       content4: "Đăng kí ngay!"
       content5: "Người dùng mới? "
       content6: "Ghi nhớ tôi trên máy tính "
+    create:
+      test: "Sai tên hoặc mật khẩu"

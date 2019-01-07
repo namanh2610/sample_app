@@ -2,6 +2,9 @@ source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "2.5.3"
+gem "kaminari"
+gem "bootstrap-kaminari-views"
+gem "faker", ">=1.6.6"
 gem "jquery-rails", "4.3.1"
 gem "turbolinks", "~> 5"
 gem "bcrypt", "3.1.12"
