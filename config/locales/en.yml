@@ -1,12 +1,32 @@
 en:
   titlebasic: "Ruby on Rails Tutorial Sample App"
+  users:
+    new:
+      title: "Sign up"
+      h1: "Sign up"
+      content1: "This will be a signup page for new users."
+  layouts:
+    footer:
+      content0: "The"
+      content1: "Ruby on Rails Tutorial"
+      content2: "by"
+      content3: "About"
+      content4: "Contact"
+      content5: "News"
+    header:
+      content1: "Sample app"
+      content2: "Home"
+      content3: "Help"
+      content4: "Log in"
   static_pages:
     home:
       title: "Home"
-      h1: "Sample App"
+      h1: "Welcome to the Sample App"
       content1: "This is the home page for the"
       link1: "Ruby on rails tutorial"
       content3: "sample application."
+      content4: "Sign up now!"
+      content5: "Rails logo"
     about:
       title: "About"
       h1: "About"

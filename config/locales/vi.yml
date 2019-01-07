@@ -1,12 +1,32 @@
 vi:
   titlebasic: "Hướng dẫn Ruby on Rails và một số ứng dụng mẫu"
+  user:
+    new:
+      title: "Đăng kí"
+      h1: "Đăng kí"
+      content1: "Đây là trang đăng kí cho người dùng mới."
+  layouts:
+    footer:
+      content0: "Bài"
+      content1: "Hướng dẫn về Ruby on Rails"
+      content2: "được viết bởi"
+      content3: "Giới thiệu"
+      content4: "Liên hệ"
+      content5: "Tin tức"
+    header:
+      content1: "ứng dụng mẫu"
+      content2: "Trang chủ"
+      content3: "Giúp đỡ"
+      content4: "Đăng nhập"
   static_pages:
     home:
       title: "Trang chủ"
-      h1: "Ứng dụng mẫu"
+      h1: "Chào mừng đến với ứng dụng mẫu"
       content1: "Đây là trang chủ của"
       content2: "Hướng dẫn về rails"
       content3: "ứng dụng mẫu."
+      content4: "Đăng kí ngay!"
+      content5: "Ảnh logo rails"
       link1: "hướng dẫn về rails"
     about:
       title: "Giới thiệu"

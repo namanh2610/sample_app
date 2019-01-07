@@ -1,0 +1,16 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <div class="i18n">
+      <%= link_to "English", locale: "en" %>
+      <%= link_to "Vietnam", locale: "vi" %>
+    </div>
+    <%= link_to t(".content1"), root_path, id: "logo" %>
+      <nav>
+        <ul class="nav navbar-nav navbar-right">
+          <li><%= link_to t(".content2"), root_path %></li>
+          <li><%= link_to t(".content3"), help_path %></li>
+          <li><%= link_to t(".content4"), "#" %></li>
+        </ul>
+      </nav>
+    </div>
+</header>
