@@ -2,6 +2,7 @@ en:
   account_activation: "Account activation"
   titlebasic: "Ruby on Rails Tutorial Sample App"
   password_resets: "Password Reset"
+  please_log_in: "Please log in"
   users:
     new:
       title: "Sign up"
@@ -11,6 +12,8 @@ en:
       info: "Please check your email to activate your account."
       flash: "Welcome to the Sample App!"
       danger: "Errors....."
+    show:
+      h3: "microposts %{user}"
     edit:
       title: "Edit user"
       h1: "Update Profile"
@@ -29,11 +32,11 @@ en:
       delete: "delete"
       question: "You sure?"
     update:
-      Profile_updated: "Profile updated"
+      profile_updated: "Profile updated"
     logged_in_user:
-      Please_log_in: "Please log in"
+      please_log_in: "Please log in"
     destroy:
-      User_deleted: "User deleted"
+      user_deleted: "User deleted"
       cant_User_delete: "cant delete"
     find_user:
       danger: "not found"
@@ -90,6 +93,7 @@ en:
       rails_img: "rails.png"
       alt: "rails logo"
       link2: "http://rubyonrails.org/"
+      h3: "Micropost Feed"
     about:
       title: "About"
       h1: "About"
@@ -113,6 +117,11 @@ en:
     error_messages:
       error: "Error"
       text: "The form contains"
+    micropost_form:
+      placeholder: "Compose new micropost..."
+    user_info:
+      view_profile: "view my profile"
+      micropost: "micropost"
   sessions:
     new:
       title: "Log in"
@@ -139,3 +148,15 @@ en:
       note: "This link will expire in two hours.
               If you did not request your password to be reset, please ignore this email and
               your password will stay as it is."
+  micropost:
+    picture_size:
+      error: "should be less than 5MB"
+  microposts:
+    micropost:
+      ago: "ago."
+      question: "You sure?"
+    create:
+      success: "Micropost created!"
+    destroy:
+      success: "Micropost deleted"
+      danger: "Micropost delete fail"

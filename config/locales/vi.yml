@@ -1,6 +1,8 @@
 vi:
   titlebasic: "hướng dân tạo ứng dụng mẫu bằng ruby on rails"
   account_activation: "Kích hoạt tài khoản"
+  password_resets: "Đặt lại mật khẩu"
+  please_log_in: "Hãy đăng nhập"
   users:
     new:
       title: "Đăng kí"
@@ -10,6 +12,8 @@ vi:
       info: "Hãy kiểm tra email của bạn để kích hoạt tài khoản"
       flash: "Chào mừng đến với ứng dụng mẫu!"
       danger: "Lỗi"
+    show:
+      h3: "microposts %{user}"
     edit:
       title: "Cập nhật thông tin người dùng"
       h1: "Cập nhật hồ sơ người dùng"
@@ -29,11 +33,11 @@ vi:
       delete: "xóa"
       question: "Bạn chắc chứ?"
     update:
-      Profile_updated: "Hồ sơ người dùng đã đưọc câp nhật"
+      profile_updated: "Hồ sơ người dùng đã đưọc câp nhật"
     logged_in_user:
-      Please_log_in: "Hãy đăng nhập"
+      please_log_in: "Hãy đăng nhập"
     destroy:
-      User_deleted: "Người dùng đã bị xóa"
+      user_deleted: "Người dùng đã bị xóa"
       cant_User_delete: "Không thể xóa"
     find_user:
       danger: "Không tìm thấy"
@@ -78,7 +82,7 @@ vi:
       success: "Mật khẩu đã đưọc đặt lại"
     check_expiration:
       danger: "Đặt lại mật khẩu đã hết hạn"
-    get_user:
+    load_user:
       danger: "Không tìm thấy"
   static_pages:
     home:
@@ -90,6 +94,7 @@ vi:
       rails_img: "rails.png"
       alt: "rails logo"
       link2: "http://rubyonrails.org/"
+      h3: "Micropost Feed"
     about:
       title: "Giới thiệu"
       h1: "Giới thiệu"
@@ -112,7 +117,12 @@ vi:
   shared:
     error_messages:
       error: "Lỗi"
-      text: "biểu mẫu chứu"
+      text: "biểu mẫu chứa"
+    micropost_form:
+      placeholder: "Soạn micropost mới..."
+    user_info:
+      view_profile: "Xem hồ sơ của tôi"
+      micropost: "micropost"
   sessions:
     new:
       title: "Đăng nhập"
@@ -139,3 +149,15 @@ vi:
       note: "Đường dẫn sẽ hết hạn trong 2h.
               Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và
               mật khẩu của bạn sẽ được giữ nguyên."
+  micropost:
+    picture_size:
+      error: "Nên nhỏ hơn 5MB"
+  microposts:
+    micropost:
+      ago: "trước."
+      question: "Bạn chắc chứ?"
+    create:
+      success: "Micropost đã được tạo!"
+    destroy:
+      success: "Micropost đã bị xóa"
+      danger: "Micropost không xóa đưọc"

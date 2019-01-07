@@ -25,13 +25,15 @@ class UsersController < ApplicationController
     end
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.page(params[:page]).per Settings.microposts_number_page
+  end
 
   def edit; end
 
   def update
     if @user.update user_params
-      flash[:success] = t ".Profile_updated"
+      flash[:success] = t ".profile_updated"
       redirect_to @user
     else
       render :edit
@@ -40,18 +42,11 @@ class UsersController < ApplicationController
 
   def destroy
     if @user.destroy
-      flash[:success] = t ".User_deleted"
+      flash[:success] = t ".user_deleted"
     else
       flash[:danger] = t ".cant_User_delete"
     end
     redirect_to users_url
-  end
-
-  def logged_in_user
-    return if logged_in?
-    store_location
-    flash[:danger] = t ".Please_log_in"
-    redirect_to login_url
   end
 
   def correct_user
