@@ -1,0 +1,15 @@
+<%= link_to "English", locale:"en" %>
+<%= link_to "Vietnam", locale:"vi" %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield :title %> | <%= t "titlebasic" %></title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
+    <%= javascript_include_tag "application", "data-turbolinks-track": "reload" %>
+  </head>
+  <body>
+    <%= yield %>
+  </body>
+</html>
