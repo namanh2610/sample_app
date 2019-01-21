@@ -1,4 +1,4 @@
 User_validates:
   min_lenght_password: 6
-  max_leght_email: 255
-  max_leght_name: 50
+  max_lenght_email: 255
+  max_lenght_name: 50
