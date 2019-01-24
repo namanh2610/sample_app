@@ -25,6 +25,11 @@ vi:
       content2: "Trang chủ"
       content3: "Giúp đỡ"
       content4: "Đăng nhập"
+      content5: "Người dùng"
+      content6: "Hồ sơ"
+      content7: "Cài đặt"
+      content8: "Đăng xuất"
+      content9: "Tài khoản"
   static_pages:
     home:
       title: "Trang chủ"
@@ -63,3 +68,12 @@ vi:
     error_messages:
       error: "Lỗi"
       content1: "Biểu mẫu chứa"
+  sessions:
+    new:
+      title: "Đăng nhập"
+      h1: "Đăng nhập"
+      content1: "Thư"
+      content2: "Mật khẩu"
+      content3: "Đăng nhập"
+      content4: "Đăng kí ngay!"
+      content5: "Người dùng mới? "
