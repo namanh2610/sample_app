@@ -1,3 +1,4 @@
+value_true: "1"
 User_validates:
   min_lenght_password: 6
   max_lenght_email: 255
