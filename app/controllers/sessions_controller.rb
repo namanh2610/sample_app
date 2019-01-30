@@ -23,11 +23,11 @@ class SessionsController < ApplicationController
     else
       forget user
     end
-    redirect_to user
+    redirect_back_or user
   end
 
   def login_fail
-    flash.now[:danger] = "Invalid email/password combination"
+    flash.now[:danger] = t ".test"
     render :new
   end
 end

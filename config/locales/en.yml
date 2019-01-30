@@ -4,14 +4,36 @@ en:
     new:
       title: "Sign up"
       h1: "Sign up"
-      content1: "Name"
-      content2: "Email"
-      content3: "Password"
-      content4: "Confirmation"
       content5: "Create my account"
     create:
       flash: "Welcome to the Sample App!"
       danger: "Errors....."
+    edit:
+      title: "Edit user"
+      h1: "Update Profile"
+      content5: "Save changes"
+      content6: "Change"
+    form:
+      content1: "name"
+      content2: "email"
+      content3: "password"
+      content4: "confirmation"
+      content5: "Save changes"
+    index:
+      title: "All Users"
+      h1: "All Users"
+    user:
+      content1: "delete"
+      content2: "You sure?"
+    update:
+      Profile_updated: "Profile updated"
+    logged_in_user:
+      Please_log_in: "Please log in"
+    destroy:
+      User_deleted: "User deleted"
+      cant_User_delete: "cant delete"
+    find_user:
+      danger: "not found"
   layouts:
     footer:
       content0: "The"
@@ -77,3 +99,5 @@ en:
       content4: "Sign up now!"
       content5: "New user?"
       content6: "Remember me on this computer"
+    create:
+      test: "Invalid email/password combination"

@@ -3,3 +3,5 @@ User_validates:
   min_lenght_password: 6
   max_lenght_email: 255
   max_lenght_name: 50
+gravatar_size_default: 100
+number_user_per_page: 10
