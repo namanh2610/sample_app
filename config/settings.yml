@@ -5,3 +5,4 @@ User_validates:
   max_lenght_name: 50
 gravatar_size_default: 100
 number_user_per_page: 10
+password_reset_expired: 2
